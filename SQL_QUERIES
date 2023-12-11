@@ -1,0 +1,8 @@
+#show databases;
+#create database mini;
+#use mini;
+show tables;
+#create table Student(id int auto_increment primary key,name varchar(30),place varchar(30),email varchar(30));
+#select * from Student;
+#insert into Student values(1,"kittu","vijayawada","kittu@gmail.com");
+select * from Student;
